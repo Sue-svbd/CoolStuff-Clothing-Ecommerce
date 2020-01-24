@@ -1,6 +1,8 @@
 import React from "react";
-
+import FormInput from "../form-input/form-input.component";
 import "./sign-in.styles.scss";
+import CustomButton from "../custom-button/custom-button.component";
+import { signInWithGoogle } from "../../firebase/firebase.utils";
 
 class SignIn extends React.Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class SignIn extends React.Component {
 
   handleChange = event => {
     const { value, name } = event.target;
-    // dinamically settin our property value
+    // dinamically setting our property value
     this.setState({ [name]: value });
   };
 
@@ -30,23 +32,28 @@ class SignIn extends React.Component {
         <h2>I already have an account</h2>
         <span>Sign in with your email and password</span>{" "}
         <form onSubmit={this.handleSubmit}>
-          <input
+          <FormInput
             name="email"
             type="email"
             value={this.state.email}
-            onChange={this.handleChange}
+            label="email"
+            handleChange={this.handleChange}
             required
-          ></input>
-          <label>Email</label>
-          <input
+          ></FormInput>
+          <FormInput
             name="password"
             type="password"
             value={this.state.password}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
+            label="password"
             required
-          ></input>
-          <label>Password</label>
-          <input type="submit" value="Submit Form"></input>
+          ></FormInput>
+          <div className="buttons">
+            <CustomButton type="submit">Sign In</CustomButton>
+            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+              Sign In with Google
+            </CustomButton>
+          </div>
         </form>
       </div>
     );
