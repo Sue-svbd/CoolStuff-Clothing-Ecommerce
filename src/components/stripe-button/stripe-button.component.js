@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="E Clothing Ltd."
+      name="CoolStuff Clothing Ltd."
       billingAddress
       shippingAddress
       image="https://www.clipartkey.com/mpngs/m/245-2457098_logo-golf-tyler-the-creator.png"
