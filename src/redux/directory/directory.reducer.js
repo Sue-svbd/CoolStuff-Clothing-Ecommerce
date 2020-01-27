@@ -2,7 +2,8 @@ const INITIAL_STATE = {
   sections: [
     {
       title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      imageUrl:
+        "https://static.highsnobiety.com/thumbor/zbFe7xYlyrXZ0YSx1zbDyzpPeh4=/fit-in/1200x720/smart/static.highsnobiety.com/wp-content/uploads/2019/12/18175713/golf-wang-winter-2019-feature.jpg",
       id: 1,
       linkUrl: "shop/hats"
     },
@@ -30,7 +31,7 @@ const INITIAL_STATE = {
     {
       title: "mens",
       imageUrl:
-        "https://i.pinimg.com/originals/f0/b0/75/f0b07531256da8640d5ccae31c02d6ef.jpg",
+        "https://outtheboxmediacom.files.wordpress.com/2018/04/tyler-the-creator-anuncia-detalla-nuevo-album-estudio-flower-boy-1-696x464.jpg?w=696",
       size: "large",
       id: 5,
       linkUrl: "shop/mens"

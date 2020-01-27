@@ -99,7 +99,7 @@ const SHOP_DATA = {
         id: 13,
         name: "Golf Le Fleur Gianno",
         imageUrl:
-          "https://s3.amazonaws.com/nikeinc/assets/91523/Gianno_Vintage_White_167377C_10_native_1600.jpg?1573139929",
+          "https://cdn.shopify.com/s/files/1/0880/5608/products/CONVERSE-X-GOLF-LE-FLEUR-GIANNO-OX-BRIGHT-CONCORDMEERKA-167376C-2_2048x2048.jpg?v=1573530682",
         price: 160
       },
       {
@@ -181,7 +181,7 @@ const SHOP_DATA = {
     items: [
       {
         id: 23,
-        name: "Soft Cardigans",
+        name: "Soft Cardigan",
         imageUrl:
           "https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-INT-Site/Sites-master/en/dw852c622b/AH0467_6KF_33.jpg",
         price: 150
@@ -237,9 +237,9 @@ const SHOP_DATA = {
     items: [
       {
         id: 30,
-        name: "Utility Vest",
+        name: "Jeans Salopette",
         imageUrl:
-          "https://pausemag.co.uk/wp-content/uploads/2019/02/Golf-Wang-0.jpg",
+          "https://i.pinimg.com/originals/35/79/8c/35798c8a56aeb6617699cd880e0e6fa0.jpg",
         price: 325
       },
       {
