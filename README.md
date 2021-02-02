@@ -12,4 +12,4 @@
 # Create-react-app
 This project was scaffolded using the create-react-app cli.
 
-Deployed version <a href="https://practical-morse-56782f.netlify.app/">here</a>
+Deployed version <a href="https://serene-ritchie-eca2e7.netlify.app/">here</a>
