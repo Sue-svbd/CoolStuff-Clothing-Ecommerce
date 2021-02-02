@@ -40,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "- React - React router - Redux  - Firebase Firestore to store users data - Redux Persist - Stripe payments",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sue-svbd/CoolStuff-Clothing-Ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sue-svbd/CoolStuff-Clothing-Ecommerce/issues"
+  },
+  "homepage": "https://github.com/Sue-svbd/CoolStuff-Clothing-Ecommerce#readme"
 }
